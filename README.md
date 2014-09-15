@@ -1,4 +1,3 @@
 A-Visual-Cryptography-based-scheme-for-Digital-Watermarking-of-Colour-Images
 ============================================================================
-
- MATLAB implementation of our visual cryptography based algorithm for digital watermarking of colour images
+We propose a scheme for the digital watermarking of colour images based on Visual Cryptography. According to the proposed scheme, verification information is generated using the image to be marked, watermark and a passkey. The watermark and the verification information are registered with a neutral authority. The passkey is in possession of the owner of the image. When an image ownership needs to be established, the claimed owner is asked to give the passkey. Using the test image, passkey and verification information, it is possible to generate the watermark. If the claim is true, this generated watermark should be recognisable as the original watermark.

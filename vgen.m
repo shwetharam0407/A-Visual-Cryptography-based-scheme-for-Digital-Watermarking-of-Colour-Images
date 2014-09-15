@@ -40,7 +40,6 @@ more=more+1;
 end
 end
 if(i~=1)
-36 | P a g e
 if(im(i-1, j)<=im(i,j))
 less= less+1;
 else
@@ -93,7 +92,6 @@ if(less<=more && wmk(wi, wj)==1)
 v(vr, vc:vc+1) = [1,0];
 elseif(less>more && wmk(wi, wj)==1)
 v(vr, vc:vc+1) = [0,1];
-37 | P a g e
 elseif(less<=more && wmk(wi, wj)==0)
 v(vr, vc:vc+1) = [0,1];
 elseif(less>more && wmk(wi, wj)==0)
